@@ -159,7 +159,8 @@
 .audio{
     position: relative;
     float: right;
-    right: -250px;
+    right: -200px;
+    top: -100px;
 }
 
 
@@ -178,9 +179,12 @@
         position: absolute;
 
     }
-    .audio{
-    float: right;
-}
+.audio{
+        position: relative;
+        float: right;
+        right: -220px;
+        top: 10px;
+    }
     .car img{
         min-width: 100px;
         height: 70px;
