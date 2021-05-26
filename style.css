@@ -156,7 +156,11 @@
         transform: translateX(calc(-120vw + 200px)) rotateY(180deg);
     }
 }
-
+.audio{
+    position: relative;
+    float: right;
+    right: -250px;
+}
 
 
 
@@ -174,6 +178,11 @@
         position: absolute;
 
     }
+    .audio{
+    position: relative;
+    float: right;
+    right: -200px;
+}
     .car img{
         min-width: 100px;
         height: 70px;
@@ -197,9 +206,4 @@
             transform: translateX(-400px) rotateY(180deg);
         }
     } 
-}
-.audio{
-    position: relative;
-    float: right;
-    right: -250px;
 }
